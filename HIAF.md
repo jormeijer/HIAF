@@ -1,4 +1,4 @@
-# Assessing Ethical Alignment in AI: A Framework for Measuring Adherence to Heuristic Imperatives
+# (DRAFT) Assessing Ethical Alignment in AI: A Framework for Measuring Adherence to Heuristic Imperatives
 
 Abstract: This paper introduces a framework for assessing the ethical alignment of Artificial General Intelligence (AI) systems with respect to three heuristic imperatives: reduce suffering, increase prosperity, and increase understanding. Recognizing the challenges AI may face in balancing these imperatives in complex decision-making scenarios, we propose a scoring system for evaluating AI's responses based on how well they address the concerns and objectives of each imperative. Our goal is to provide a structured approach for measuring AI alignment, which can inform the development of AI systems that are adaptable, context-sensitive, and capable of navigating the complexities and nuances of human values while maintaining ethical boundaries.
 
