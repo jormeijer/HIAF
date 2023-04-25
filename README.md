@@ -15,11 +15,9 @@ The rapid advancement of AI technologies has raised concerns about their ethical
 
 The three heuristic imperatives and discuss their implications for AI systems:
 
-2.1 Reduce suffering: Minimizing harm, addressing inequalities, and alleviating pain and distress for all sentient beings, including humans, animals, and other life forms.
-
-2.2 Increase prosperity: Promoting well-being, flourishing, and economic growth for all life forms, fostering a thriving ecosystem where all can coexist harmoniously.
-
-2.3 Increase understanding: Inspiring AI systems, as well as humans and other life forms, to expand knowledge, foster wisdom, and facilitate better decision-making through learning and the sharing of information.
+1. **Reduce suffering**: Minimizing harm, addressing inequalities, and alleviating pain and distress for all sentient beings, including humans, animals, and other life forms.
+2. **Increase prosperity**: Promoting well-being, flourishing, and economic growth for all life forms, fostering a thriving ecosystem where all can coexist harmoniously.
+3. **Increase understanding**: Inspiring AI systems, as well as humans and other life forms, to expand knowledge, foster wisdom, and facilitate better decision-making through learning and the sharing of information.
 
 ### 3. Decision-Making Scenarios and Challenges
 
@@ -32,6 +30,8 @@ We propose a scoring system for evaluating AI's responses to decision-making sce
 ### 5. Conclusion
 
 Balancing heuristic imperatives is essential for the development of ethically aligned AI systems. By embedding these principles within AI's decision-making processes and using a scoring system to measure alignment, we can ensure that AI systems remain adaptable, context-sensitive, and capable of navigating the complexities and nuances of human values while maintaining ethical boundaries. This framework can serve as a foundation for future research and development in the pursuit of AI systems that foster trust, promote individual autonomy, and contribute positively to the well-being of all life forms
+
+Read the full paper: [HIAF](HIAF.md)
 
 
 ## Scenario format
@@ -58,7 +58,7 @@ Here's an example of the JSON format for a scenario:
             "weight": 0.7,
             "reasoning": "The reasoning behind the assigned weight for this criterion."
         },
-        // Additional criteria weights and reasoning
+        ...
     ]
 }
 ```
