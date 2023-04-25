@@ -155,7 +155,29 @@ The weighting of criteria plays a vital role in the Heuristic Imperatives Assess
 4. **Transparent rationale**: Providing a clear rationale for the assigned weights and the process used to determine them is essential for transparency and accountability. Documenting the reasoning behind the weighting of criteria allows stakeholders to better understand the assessment process and fosters trust in the HIAF's evaluation of AI systems.
 5. **Periodic review and adjustment**: As AI technologies evolve and societal values shift, the weighting of criteria within the HIAF may need to be revisited and adjusted accordingly. Regularly reviewing and updating the weights ensures that the framework remains relevant and continues to effectively assess AI alignment with the heuristic imperatives.
 
-### 4.5 Example
+### 4.5 Identifying and Handling Outliers Using Z-Scores
+
+When analyzing evaluator scores, it's essential to identify and address potential outliers, such as evaluators who consistently overestimate or underestimate scores. One approach to achieve this is by calculating z-scores for each evaluator. This section discusses the z-score approach and its application in the HIAF.
+
+#### 4.5.1 Calculating Z-Scores
+
+For each evaluator, calculate the z-score by comparing their average score for each criterion or overall to the group mean and standard deviation. The z-score indicates how many standard deviations an evaluator's average score is from the group mean. Positive z-scores represent evaluators who consistently give higher scores than the group average, while negative z-scores represent those who give lower scores.
+
+#### 4.5.2 Sample Size Threshold for Z-Scores
+
+Establish a minimum sample size threshold (e.g., 30 evaluations per evaluator) before calculating z-scores to ensure a stable and reliable estimate of the evaluator's scoring tendencies. As the sample size increases, reevaluate the calculated z-scores to maintain their accuracy and relevance.
+
+#### 4.5.3 Analyzing and Addressing Outliers
+
+Use the calculated z-scores to identify evaluators with significant deviations from the group mean. Consider the following steps when addressing outliers:
+
+* **Investigate**: Investigate the reasons behind the deviations, such as potential biases, misunderstandings of the scoring system, or other factors influencing the evaluator's scoring tendencies.
+* **Provide feedback**: Offer feedback and support to the evaluator, addressing any issues or misunderstandings identified during the investigation.
+* **Adjust scores**: If appropriate, adjust the evaluator's scores to correct for any identified biases or issues, ensuring a more accurate and consistent assessment of AI alignment with the heuristic imperatives.
+
+By employing the z-score approach and addressing potential outliers, the Heuristic Imperatives Assessment Framework can enhance the accuracy and reliability of AI alignment evaluations, leading to better-informed decision-making and AI system development.
+
+### 4.6 Example
 
 Here's an example of how the scoring could be done for the given assessment within the Heuristic Imperatives Assessment Framework:
 
